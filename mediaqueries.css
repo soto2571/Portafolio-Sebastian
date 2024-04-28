@@ -12,12 +12,7 @@
   }
 }
 
-@media screen and (max-width: 600px) {
-  .section__pic-container img{
-    height: 280px; /* Adjusted height for smaller screens */
-    width: 240px; /* Adjusted width for smaller screens */
-  }
-}
+
 
 @media screen and (max-width: 1200px) {
   #desktop-nav {
