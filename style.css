@@ -9,7 +9,17 @@
 
 body {
   font-family: "Poppins", sans-serif;
+  background-color: #ffffff;
+  background-image: url('https://www.transparenttextures.com/patterns/cubes.png');
+  background-size: 400px 400px;
 }
+
+@media (max-width: 768px) {
+  body {
+    background-size: 200px 200px; /* Smaller pattern for mobile */
+  }
+}
+
 
 html {
   scroll-behavior: smooth;
