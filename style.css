@@ -361,7 +361,18 @@ article .icon {
 
 #projects {
   position: relative;
+  display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
 }
+
+.project-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+  }
 
 .color-container {
   border-color: rgb(163, 163, 163);
@@ -377,6 +388,16 @@ article .icon {
 .project-title {
   margin: 1rem;
   color: black;
+}
+.project-sub-title {
+  color: rgb(76, 76, 76);
+  font-weight: 600;
+  margin-bottom: 2rem;
+  margin-top: -1.50rem;
+}
+p {
+  color: rgb(85, 85, 85);
+  margin-bottom: 1rem;
 }
 
 .project-btn {
