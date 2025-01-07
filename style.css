@@ -9,8 +9,7 @@
 
 body {
   font-family: "Poppins", sans-serif;
-  background-color: #ffffff;
-  background-image: url('https://www.transparenttextures.com/patterns/cubes.png');
+  background-color: #F3F3F3;
   background-size: 400px 400px;
 }
 
@@ -310,7 +309,7 @@ section {
 .details-container {
   padding: 1.5rem;
   flex: 1;
-  background: white;
+  background: #F3F3F3;
   border-radius: 2rem;
   border: rgb(53, 53, 53) 0.1rem solid;
   border-color: rgb(163, 163, 163);
@@ -374,7 +373,7 @@ article .icon {
 /* New Projects Section */
 #new-projects {
   padding: 2rem;
-  background-color: #ffffff;
+  background-color: #f3f3f3;
 }
 
 .new-section__text {
