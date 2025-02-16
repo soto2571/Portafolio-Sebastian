@@ -358,6 +358,12 @@ section {
   justify-content: space-around;
 }
 
+.text-container {
+  font-size: 1.35rem;
+  text-align: center;
+  
+}
+
 article {
   display: flex;
   width: 10rem;
